@@ -27,7 +27,7 @@ public class AppTest
         D.add("bale");
         D.add("kangaroo");
 
-        FindLongestWordV2 findLongestWord = new FindLongestWordV2(S, D);
+        FindLongestWordV3 findLongestWord = new FindLongestWordV3(S, D);
         String longestWord = findLongestWord.find();
         assertEquals("Found: ", "apple", longestWord);
     }
